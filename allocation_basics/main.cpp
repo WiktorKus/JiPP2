@@ -8,5 +8,9 @@ int main() {
 
     cout << *wsk << endl;
 
+    cout << wsk << endl;         //wyświetlenie adresu zmiennej liczba
+    cout << &wsk << endl;        //wyświetlenie adresu wskaźnika
+    cout << &telefon << endl;    //wyświetlenie adresu zmiennej liczba
+
     return 0;
 }
