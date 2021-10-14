@@ -19,8 +19,8 @@ double volume(char *argv[]) { //obliczanie objetosci graniastoslupa prostego o p
 
 void help(){ //dokumentacja dla funkcji
     cout<<"DOKUMENTACJA\n\n";
-    cout<<"Simple calculator\n\n1. simpleCalc [dodawanie]\nDzialania add [a] [b]\n\tDodawanie dwoch liczb ([a] i [b]) calkowitych\n\n\n";
-    cout<<"2. simpleCalc [odejmowanie]\nDzialania subtract [a] [b]\n\tOdejmowanie dwoch liczb ([a] i [b]) calkowitych\n\n\n";
-    cout<<"3. simpleCalc [obliczanie objetosci graniostoslupa]\nDzialanie volume ([a], [b], [h], [H])\n\tObliczanie objetosci graniastoslupa prostego o podstawie trapezu ze wzoru [((a*b)/2)*H], gdzie a, b i H to liczby calkowite\n\n\n";
-    cout<<"4. simpleCalc [dokumentacja]\nWyswietlanie help\n\tDokumentacja dla dodawania, odejmowania i obliczania objetosci graniastoslupa";
+    cout<<"Simple calculator\n\n1. simpleCalc [dodawanie]\nDzialania add [a] [b]\n\tDodawanie dwoch liczb ([a] i [b]) calkowitych.\n\n\n";
+    cout<<"2. simpleCalc [odejmowanie]\nDzialania subtract [a] [b]\n\tOdejmowanie dwoch liczb ([a] i [b]) calkowitych.\n\n\n";
+    cout<<"3. simpleCalc [obliczanie objetosci graniostoslupa]\nDzialanie volume ([a], [b], [h], [H])\n\tObliczanie objetosci graniastoslupa prostego o podstawie trapezu ze wzoru [((a*b)/2)*H], gdzie a, b i H to liczby calkowite\n\n\n.";
+    cout<<"4. simpleCalc [dokumentacja]\nWyswietlanie help\n\tDokumentacja dla dodawania, odejmowania i obliczania objetosci graniastoslupa.";
 }

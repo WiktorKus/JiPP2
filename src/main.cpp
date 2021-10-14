@@ -4,7 +4,7 @@
 using namespace std;
 
 void nofunction() {
-    cout<<"Nie ma takiej opcji\n";
+    cout<<"Nie ma takiej opcji!\n";
     help();
 }
 
