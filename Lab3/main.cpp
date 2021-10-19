@@ -75,6 +75,5 @@ int main() {
     }
     cout<<"Najwieszka liczba w tablicy to: = "<<maxInArray(array);
 
-
     return 0;
 }
