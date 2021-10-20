@@ -71,7 +71,7 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         array[i] = rand() % 100 + 1;
-        //cout<<"\n"<<array[i];
+        cout<<"\n"<<array[i];
     }
     cout<<"Najwieszka liczba w tablicy to: = "<<maxInArray(array);
 
