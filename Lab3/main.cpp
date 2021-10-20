@@ -48,13 +48,13 @@ int maxInArray(int *array){
     return max;
 }
 
-int swapArray(int *array) {
-    int tmp = array[0];
+void swapArray(int *array) {
+    int tmp;
     for(int i = 9; i <= 0; i--) {
-
-
+        tmp = array[i];
+        array[i] = array[i - 1];
+        array[i - 1] = tmp;
     }
-
 }
 
 
@@ -71,9 +71,14 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         array[i] = rand() % 100 + 1;
-        cout<<"\n"<<array[i];
+        cout<<" "<<array[i]<<endl;
     }
     cout<<"Najwieszka liczba w tablicy to: = "<<maxInArray(array);
+    swapArray(array);
+
+    for(int i = 0; i < 10; i++) {
+        cout<<" "<<array[i]<<endl;
+    }
 
     return 0;
 }
