@@ -1,4 +1,5 @@
 #ifndef PROJEKT1_MATRIXLIB_H
+
 #define PROJEKT1_MATRIXLIB_H
 
 int** addMatrix(int** matrixA, int** matrixB, int rowsNumber, int columnsNumber);

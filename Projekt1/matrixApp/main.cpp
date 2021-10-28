@@ -12,7 +12,8 @@ int** allocation(int rowsNumber, int columnsNumber){
 }
 
 int main()
-{ /*
+{
+    /*
     int columns, rows, rowsFirstMatrix, columnsFirstMatrix, columnsSecondMatrix, rowsSecondMatrix;
     int scalar = 5;
     //cout<<"Podaj liczbe wierszy: "<<endl;
