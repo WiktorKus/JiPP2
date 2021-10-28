@@ -36,4 +36,4 @@ double** sortRowsInMatrix(double** matrixA, int rowsNumber, int columnsNumber);
 
 void help();
 
-#endif //PROJEKT1_MATRIXLIB_H
+#endif
