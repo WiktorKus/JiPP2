@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "../include/matrixLib.h"
 
 using namespace std;
