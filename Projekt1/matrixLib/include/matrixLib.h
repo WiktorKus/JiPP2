@@ -16,8 +16,8 @@ double** multiplyByScalar(double** matrixA, int rowsNumber, int columnsNumber, d
 int** transpozeMatrix(int** matrixA, int rowsNumber, int columnsNumber);
 double** transpozeMatrix(double** matrixA, int rowsNumber, int columnsNumber);
 
-int** powerMatrix(int** matrixA, int rowsNumber, int columnsNumber, unsigned exponent);
-double** powerMatrix(double** matrixA, int rowsNumber, int columnsNumber, unsigned exponent);
+int** powerMatrix(int** matrixA, int rowsNumber, int columnsNumber, unsigned int exponent);
+double** powerMatrix(double** matrixA, int rowsNumber, int columnsNumber, unsigned int exponent);
 
 int determinantMatrix(int** matrixA, int rowsNumber, int columnsNumber);
 double determinantMatrix(double** matrixA, int rowsNumber, int columnsNumber);
@@ -28,11 +28,11 @@ bool matrixIsDiagonal(double** matrixA, int rowsNumber, int columnsNumber);
 void swap(int &a, int &b);
 void swap(double &a, double &b);
 
-int* sortRow(int* array, int columnsNumber);
-double* sortRow(double* array, int columnsNumber);
+void sortRow(int* array, int columnsNumber);
+void sortRow(double* array, int columnsNumber);
 
-int** sortRowsInMatrix(int** matrixA, int rowsNumber, int columnsNumber);
-double** sortRowsInMatrix(double** matrixA, int rowsNumber, int columnsNumber);
+void sortRowsInMatrix(int** matrixA, int rowsNumber, int columnsNumber);
+void sortRowsInMatrix(double** matrixA, int rowsNumber, int columnsNumber);
 
 void help();
 
