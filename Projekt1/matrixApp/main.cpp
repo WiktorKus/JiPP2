@@ -325,7 +325,7 @@ int main(int argc, char *argv[]) {
                 exit(0);
             }
         } else {
-            cout << "Podales nieprawidlowy typ!\n";
+            cout << "Podales nieprawidlowy typ!!\n";
             help();
             exit(0);
         }

@@ -360,7 +360,7 @@ void sortRowsInMatrix(double** matrixA, int rowsNumber, int columnsNumber) { //s
     }
 }
 
-void help() { //dokumentacja
+void help() {  //dokumentacja
     cout<<"DOKUMENTACJA\n\n";
     cout<<"Obliczenia na macierzach\n\n";
     cout<<"1. addMatrix [dodawanie dwoch macierzy]\nDzialanie addMatrix [macierz a] [macierz b]\n\tNalezy podac macierz a, macierz b, ilosc wierszy, ilosc kolumn\n\n";

@@ -35,5 +35,4 @@ void sortRowsInMatrix(int** matrixA, int rowsNumber, int columnsNumber);
 void sortRowsInMatrix(double** matrixA, int rowsNumber, int columnsNumber);
 
 void help();
-
 #endif
