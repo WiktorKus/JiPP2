@@ -32,7 +32,6 @@ int main() {
 
         cout<<"Marka\tModel\tRok Produkcji\tKolor\tKonie mechaniczne"<<endl;
 
-
         for(int i = 0; i < 4; i++) {
             cout<<cars[i].mark<<"\t"<<cars[i].model<<"\t"<<cars[i].yearProduction<<"    \t"<<cars[i].color<<"\t"<<cars[i].horsepower<<endl;
 
