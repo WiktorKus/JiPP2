@@ -2,7 +2,6 @@
 
 Point::Point(double x, double y, string name) : name(name) {
     *this->x = x;
-
     *this->y = y;
 }
 
