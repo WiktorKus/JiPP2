@@ -1,7 +1,6 @@
 //
 // Created by Wiktor on 09/11/2021.
 //
-
 #include <../include/Car.h>
 
 Car::Car(string registrationNumber, string name, int placesNumber, string brand, string type) : registrationNumber(registrationNumber), name(name), placesNumber(placesNumber), brand(brand), type(type){

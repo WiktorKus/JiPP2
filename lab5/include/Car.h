@@ -21,12 +21,14 @@ private:
 public:
     Car(string registrationNumber, string name, int placesNumber,  string brand, string type);
     Car(Car &car);
+
     void printInformation();
     void changeInformationPassenger(int placeNumber, string passengerName);
     void setName(string name);
     void setRegistrationNumber(string registrationNumber);
     void setBrand(string brand);
     void setType(string type);
+
     string getName();
     string getRegistrationNumber();
 };
