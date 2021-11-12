@@ -18,4 +18,5 @@ int main () {
 
     myCar.changeInformationPassenger(placeNumber, passengerName);
 
+    return 0;
 }
